@@ -1,0 +1,44 @@
+@keyframes zoom-in {
+    from {
+        font-size: medium;
+    }
+
+    to {
+        font-size: larger;
+    }
+}
+
+@keyframes zoom-out {
+    from {
+        font-size: larger;
+    }
+
+    to {
+        font-size: medium;
+    }
+}
+
+
+.product-link {
+    font-size: medium;
+    margin: 0;
+}
+
+.product-link a:hover {
+    animation: zoom-in 400ms;
+    animation-fill-mode: forwards;
+}
+
+.product-link a:not(:hover) {
+    animation: zoom-out 400ms;
+    animation-fill-mode: forwards;
+}
+
+.product-link a:active {
+    animation: zoom-out 200ms;
+}
+
+.product-link a {
+    color: white;
+    text-decoration: none;
+}

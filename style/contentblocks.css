@@ -1,0 +1,9 @@
+.contentblock-horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container {
+    padding: 12px;
+}
