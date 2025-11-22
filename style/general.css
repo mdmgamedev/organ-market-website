@@ -8,3 +8,9 @@ body {
     background-color: #3A4F8B;
     color: #ffffff;
 }
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
