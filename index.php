@@ -28,7 +28,7 @@
                         <p class="para-left">Discover our broad selection of human and/or synthetic organs</p>
                     </div>
                     <div class="image-container">
-                        <img src="res/homepage-image.png" width="375px">
+                        <img class="scaled-image" src="res/homepage-image.png">
                     </div>
                 </div>
             </div>

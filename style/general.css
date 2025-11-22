@@ -9,7 +9,7 @@ body {
     color: #ffffff;
 }
 
-img {
+img.scaled-image {
     width: 100%;
     height: auto;
     display: block;
