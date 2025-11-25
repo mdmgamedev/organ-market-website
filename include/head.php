@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="style/footer.css">
         <link rel="stylesheet" href="style/buttons.css">
         <link rel="stylesheet" href="style/productlink.css">
+        <link rel="stylesheet" href="style/productpage.css">
 
         <!-- Same for scripts -->
         <script src="js/hamburgermenu.js"></script>
