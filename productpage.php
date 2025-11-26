@@ -3,12 +3,8 @@ $requested_product_id = htmlspecialchars($_GET["product_id"]);
 
 include("include/db.php");
 
-$sql = "SELECT product_id,product_name,product_desc,product_price FROM products WHERE product_id";
+$sql = "SELECT product_id,product_name,product_desc,product_price FROM products WHERE product_id = " . $requested_product_id . ";";
 $result = $conn->query($sql);
-
-while ($row = $result->fetch_assoc()) {
-    # idk what to put here
-}
 
 ?>
 
@@ -25,7 +21,7 @@ while ($row = $result->fetch_assoc()) {
         <?php include ("include/navbar.php");?>
         <div class="productpage-grid">
             <div class="productpage-image-pane">
-                image goes here
+                <img src="res/products/product_1.png">
             </div>
             <div class="productpage-info-pane">
                 <h1>product_name</h1>
