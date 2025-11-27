@@ -13,7 +13,45 @@
     padding: 6px;
 }
 .productpage-grid .productpage-info-pane {
+    display: flex;
+    flex-direction: column;
     background-color: #5878d1;
     height: 450px;
     padding: 6px;
+}
+
+.productpage-grid .productpage-desc-pane {
+    background-color: #5878d1;
+    height: 650px;
+    padding: 6px;
+    grid-column: 1 / 4;
+}
+
+.productpage-desc-pane .productpage-desc-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: auto auto;
+    gap: 9px;
+}
+
+.productpage-desc-pane .productpage-desc-container .description {
+    grid-column: 1 / 4;
+}
+
+.productpage-desc-pane .productpage-desc-container .shipping-and-payment {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.productpage-grid .productpage-info-pane .button-container {
+    margin-top: auto;
+}
+
+.button-container button, .button-container .add-to-cart-button {
+    display: block;
+    margin: 3px;
+    width: 100%;
+    background-color:#c2d2ff;
+    border: 1px solid #5878d1;
 }

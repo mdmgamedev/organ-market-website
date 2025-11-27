@@ -21,3 +21,8 @@ img.scaled-image {
         max-width: 300px;
     }
 }
+
+hr {
+    border: .1px solid rgb(209, 209, 209,0.2);
+    width: 100%;
+}
