@@ -1,0 +1,17 @@
+.search-pane {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text] {
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 24px;
+    border: none;
+    padding: 2px;
+}
+
+input[type=text]:focus {
+    border: 1px solid black;
+}

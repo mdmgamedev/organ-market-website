@@ -29,6 +29,15 @@
     padding: 10px;
     grid-column: 1 / 4;
 }
+
+.grid-item-full-small {
+    background-color: #5878d1;
+    height: 120px;
+    min-width: 30%;
+    padding: 10px;
+    grid-column: 1 / 4;
+}
+
 .grid-item-full-big {
     background-color: #5878d1;
     height: 400px;
