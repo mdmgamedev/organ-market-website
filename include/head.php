@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="style/productlink.css">
         <link rel="stylesheet" href="style/productpage.css">
         <link rel="stylesheet" href="style/search.css">
+        <link rel="stylesheet" href="style/shoppingcart.css">
 
         <!-- Same for scripts -->
         <script src="js/hamburgermenu.js"></script>

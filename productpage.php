@@ -32,7 +32,7 @@ if ($result && $result->num_rows > 0) {
     <head>
         <meta charset="UTF-8">
         <title><?php echo $product_name;?> - Organ Market</title>
-        <?php require ("include/head.php");?>
+        <?php require ('include/head.php');?>
 
     </head>
     <body>
@@ -44,7 +44,7 @@ if ($result && $result->num_rows > 0) {
             <div class="productpage-info-pane">
                 <h1><?php echo $product_name;?></h1>
                 <hr>
-                <h2><?php echo $product_stock?> currently in stock</h2>
+                <h2><?php if($product_stock < 50) { echo  "<span class=\"red-text\">Only "; }?><?php echo $product_stock?> currently in stock <?php if($product_stock < 50) { echo  "</span> "; } ?></h2>
                 <hr>
                 <h2 class="price-display">Price: $<?php echo $product_price;?></h2>
                 <div class="button-container">
@@ -57,7 +57,7 @@ if ($result && $result->num_rows > 0) {
                     <div class="description">
                         product description
                     </div>
-                    <div class="payment-and-shipping">
+                    <div class="shipping-and-payment">
                         payment options
                     </div>
                 </div>

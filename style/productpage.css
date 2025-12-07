@@ -8,7 +8,7 @@
 
 .productpage-grid .productpage-image-pane {
     background-color: #5878d1;
-    height: 450px;
+    height: 400px;
     grid-column: 1 / 3;
     padding: 6px;
     text-align: center;
@@ -36,17 +36,21 @@
 .productpage-desc-pane .productpage-desc-container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     gap: 9px;
 }
 
 .productpage-desc-pane .productpage-desc-container .description {
     grid-column: 1 / 4;
+    padding: 16px;
+    min-height: 100%;
 }
 
 .productpage-desc-pane .productpage-desc-container .shipping-and-payment {
     display: flex;
     flex-direction: column;
+    padding: 16px;
+    min-height: 100%;
 }
 
 
@@ -60,4 +64,42 @@
     width: 100%;
     background-color:#c2d2ff;
     border: 1px solid #5878d1;
+}
+
+/*
+=============================
+RESPONSIVE DESIGN   
+=============================
+*/
+
+@media (max-width: 1024px) {
+    .productpage-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .productpage-grid .productpage-image-pane {
+        grid-column: 1 / 2;
+        height: auto;
+    }
+
+    .productpage-grid .productpage-info-pane {
+        height: auto;
+        grid-column: 1 / 2;
+    }
+
+    .productpage-grid .productpage-desc-pane {
+        grid-column: 1 / 2;
+        height: auto;
+    }
+
+    /* Description subgrid becomes 1-column */
+    .productpage-desc-pane .productpage-desc-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .productpage-desc-pane .productpage-desc-container .description {
+        grid-column: 1 / 2;
+    }
 }

@@ -54,6 +54,12 @@ li a:active {
         color: black;
     }
 
+    #shoppingcart-button {
+        margin: 10px;
+        font-size: xx-large;
+        color: black;
+    }
+
     #hamburger-menu {
         margin: 0;
         display: none;

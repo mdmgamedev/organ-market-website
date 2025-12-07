@@ -10,3 +10,7 @@ p.para-left {
 h2 {
     font-size:medium;
 }
+
+.red-text {
+    color: rgb(255, 85, 85);
+}

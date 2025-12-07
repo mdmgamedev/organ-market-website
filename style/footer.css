@@ -4,6 +4,7 @@ footer {
     grid-template-rows: auto auto;
     background-color:#253257;  
     padding: 6px;
+    margin-top:auto;
 }
 
 footer .footer-element {
