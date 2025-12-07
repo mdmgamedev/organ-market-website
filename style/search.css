@@ -1,8 +1,3 @@
-.search-pane {
-    display: flex;
-    flex-direction: column;
-}
-
 input[type=text] {
     justify-content: center;
     margin: 0 auto;
@@ -14,4 +9,9 @@ input[type=text] {
 
 input[type=text]:focus {
     border: 1px solid black;
+}
+
+.search-results-list {
+    list-style-type: none;
+    
 }
