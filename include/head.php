@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="style/productpage.css">
         <link rel="stylesheet" href="style/search.css">
         <link rel="stylesheet" href="style/shoppingcart.css">
+        <link rel="stylesheet" href="style/checkout.css">
 
         <!-- Same for scripts -->
         <script src="js/hamburgermenu.js"></script>

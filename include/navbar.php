@@ -18,7 +18,7 @@
     </a>
     <a href="shoppingcart.php" id="shoppingcart-button">
         <i class="fa fa-shopping-cart"></i>
-
+    </a>
     <div id="hamburger-menu">
         <ul>
             <li><a href="#">Home</a></li>

@@ -33,7 +33,7 @@ if ($result && $result->num_rows > 0) {
         <meta charset="UTF-8">
         <title><?php echo $product_name;?> - Organ Market</title>
         <?php require ('include/head.php');?>
-
+        <script src="js/shoppingcart.js"></script>
     </head>
     <body>
         <?php include ("include/navbar.php");?>
@@ -48,17 +48,29 @@ if ($result && $result->num_rows > 0) {
                 <hr>
                 <h2 class="price-display">Price: $<?php echo $product_price;?></h2>
                 <div class="button-container">
+                    <label for="qty">Quantity:</label>
+                    <input id="qty" type="number">
                     <button class="buy-button">Buy</button>
-                    <button class="add-to-cart-button">Add to cart</button>
+                    <button onclick="addToCart(<?php echo $requested_product_id?>,'<?php echo $product_name?>',<?php echo $product_price?>)" class="add-to-cart-button">Add to cart</button>
                 </div>
             </div>
             <div class="productpage-desc-pane">
                 <div class="productpage-desc-container">
                     <div class="description">
-                        product description
+                        <?php echo $product_desc;?>
                     </div>
                     <div class="shipping-and-payment">
-                        payment options
+                        <h3>Payment Options</h3>
+                        <ul>
+                            <li>Credit Card (Visa, Mastercard, Amex)</li>
+                            <li>Debit Card</li>
+                            <li>PayPal</li>
+                            <li>Apple Pay</li>
+                            <li>Google Pay</li>
+                        </ul>
+                        <h3>Shipping</h3>
+                        <p>Free shipping</p>
+                        <p>Standard delivery: 5-7 business days</p>
                     </div>
                 </div>
             </div>

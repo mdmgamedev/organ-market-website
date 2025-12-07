@@ -12,6 +12,6 @@
         <a href="#">Refund Policy</a><br/>
     </div>
     <div class="footer-copy-notice">
-        <p>&copy 2025 Organ Market Corporation. All Rights Reserved</p>
+        <p>&copy; 2025 Organ Market Corporation. All Rights Reserved</p>
     </div>
 </footer>

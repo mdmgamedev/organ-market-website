@@ -15,12 +15,13 @@
                 <!-- Shopping cart items will be loaded here -->
                 <ul id="shoppingcart-list">
                     <li class="shoppingcart-item">
-                        <h1>Product Name</h1>
-                        <p>Quantity: 1</p>
-                        <p>Price: $10.00</p>
-                        <button class="remove-item-button"><i class="fa fa-trash"></i></button>
+
                     </li>
                 </ul>
+            </div>
+            <div id="shoppingcart-total">
+                <h1>Total: $<span id="shoppingcart-total-amount">0.00</span></h1>
+                <button onclick="proceedToCheckout()" id="checkout-button">Proceed to Checkout</button>
             </div>
         </div>
         <?php include("include/footer.php"); ?>    
