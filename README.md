@@ -7,3 +7,6 @@ These files have been (partially) created using ai:
 - js/shoppingcart.js (add to cart function)
 - css/productpage.css (small part of mediaquery)
 - tos.php (terms of service text only)
+
+## PLACEHOLDERS
+Most of the product images are placeholders. Sorry for that....

@@ -24,10 +24,6 @@ if ($result && $result->num_rows > 0) {
     echo "Product not found.";
 }
 
-function changeProductStock() {
-    $changeStockSql = "UPDATE products SET product_stock = product_stock - 1"
-}
-
 ?>
 
 <!DOCTYPE html>
@@ -54,7 +50,6 @@ function changeProductStock() {
                 <div class="button-container">
                     <label for="qty">Quantity:</label>
                     <input id="qty" type="number">
-                    <button class="buy-button">Buy</button>
                     <button onclick="addToCart(<?php echo $requested_product_id?>,'<?php echo $product_name?>',<?php echo $product_price?>)" class="add-to-cart-button">Add to cart</button>
                 </div>
             </div>

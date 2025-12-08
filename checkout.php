@@ -16,5 +16,6 @@
             <button id="confirm-purchase-button">Confirm Purchase</button>
         </div>
         <script src="js/checkout.js"></script>
+        <?php include ("include/footer.php");?>
     </body>
 </html>

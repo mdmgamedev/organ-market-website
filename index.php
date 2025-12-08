@@ -36,19 +36,19 @@
             <div class="grid-item-1-3">
                 <h1>Products</h1>
                 <p>Our huge selection of human organs</p>
-                <button>Go to shop</button>
+                <button onclick="window.location.href='storefront.php'">Go to shop</button>
             </div>
 
             <div class="grid-item-1-3">
                 <h1>Info</h1>
                 <p>Everything you need to know about the process</p>
-                <button>Learn more</button>
+                <button onclick="window.location.href='info.php'">Learn more</button>
             </div>
 
             <div class="grid-item-1-3">
                 <h1>Legality</h1>
                 <p>Everything is 100% legal (I hope so)</p>
-                <button>Read the Terms</button>
+                <button onclick="window.location.href='tos.php'">Read the Terms</button>
             </div> 
 
         </div>

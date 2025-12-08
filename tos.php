@@ -91,7 +91,7 @@
 
                     <h2>10. Modifications</h2>
                     <div class="section">
-                        <p>OrganMarket™ may modify these Terms at any time. Continued use signifies acceptance of the updated Terms.</p>
+                        <p>OrganMarket&trade; may modify these Terms at any time. Continued use signifies acceptance of the updated Terms.</p>
                     </div>
                 </p>
             </div>

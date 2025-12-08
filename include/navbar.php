@@ -4,8 +4,7 @@
         <li><a href="index.php">Home</a></li>
         <li><a href="storefront.php">Products</a></li>
         <li><a href="refund.php">Refund policy</a></li>
-        <li><a href="#">Medical notice</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact.php">Contact</a></li>
         <li><a href="shoppingcart.php">Shopping cart</a></li>        
 				
     </ul>
@@ -21,11 +20,11 @@
     </a>
     <div id="hamburger-menu">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Refund policy</a></li>
-            <li><a href="#">Medical notice</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="storefront.php">Products</a></li>
+            <li><a href="refund.php">Refund policy</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="shoppingcart.php">Shopping cart</a></li>   
         </ul>
     </div>
 </div>
