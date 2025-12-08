@@ -4,7 +4,7 @@
 
 .content-container .content-block {
     background-color: #5878d1;
-    height: 400px;
+    height: fit-content;
     padding: 10px;
 }
 

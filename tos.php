@@ -12,8 +12,7 @@
                 <h1>Terms of Service</h1>
                 <p>
                     <!-- This is AI. I aint writing a full terms of service -->
-                    <h1>OrganMarket™ — Terms of Service (Fictional)</h1>
-                    <p class="updated"><strong>Last Updated:</strong> January 1, 2040</p>
+                    <p class="updated"><strong>Last Updated:</strong> Dec 8, 2025</p>
                     <p class="updated"><strong>Effective Date:</strong> Immediately upon use of OrganMarket™’s fictional services.</p>
 
                     <div class="section">
@@ -97,5 +96,6 @@
                 </p>
             </div>
         </div>
+        <?php include("include/footer.php");?>
     </body>
 </html>

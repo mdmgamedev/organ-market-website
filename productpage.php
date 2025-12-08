@@ -24,6 +24,10 @@ if ($result && $result->num_rows > 0) {
     echo "Product not found.";
 }
 
+function changeProductStock() {
+    $changeStockSql = "UPDATE products SET product_stock = product_stock - 1"
+}
+
 ?>
 
 <!DOCTYPE html>
