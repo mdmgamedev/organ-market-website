@@ -1,3 +1,13 @@
+.content-container {
+    margin: 10px;
+}
+
+.content-container .content-block {
+    background-color: #5878d1;
+    height: 400px;
+    padding: 10px;
+}
+
 .contentblock-horizontal {
     display: flex;
     align-items: center;

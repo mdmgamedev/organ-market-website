@@ -1,7 +1,7 @@
 <?php
 
 $warehouseEmail = "plngang.kontakt37@gmail.com"; // not a real warehouse obviously
-$productionEnvironment = false;
+$productionEnvironment = false; //  deployment flag
 // Very unsafe code... definitely not production ready (this is a school project so fuck it)
 $orderText = "";
 $fullName = "";
@@ -13,7 +13,7 @@ $cvv = "";
 $orderNumber = rand(1000000,9999999);
 
 if(!$productionEnvironment) {
-    die("Not a production environment! No mail server available");
+    die("This code can only be executed in a production environment");
 }
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
